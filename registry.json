@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
+  "name": "niche-blocx",
+  "homepage": "https://localhost:3000",
   "items": [
     {
       "name": "hello-world",
@@ -57,6 +57,20 @@
         {
           "path": "registry/new-york/complex-component/hooks/use-pokemon.ts",
           "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "course-card-01",
+      "type": "registry:component",
+      "title": "Course Card 01",
+      "description": "A complex component showing hooks, libs and components.",
+      "registryDependencies": ["card"],
+      "files": [
+        {
+          "path": "registry/new-york/complex-component-2/page.tsx",
+          "type": "registry:page",
+          "target": "app/pokemon-2/page.tsx"
         }
       ]
     }
